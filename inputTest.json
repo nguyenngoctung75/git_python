@@ -1,0 +1,47 @@
+[
+    {
+        "intent": "greeting",
+        "patterns": [
+            "Hello",
+            "Hi",
+            "Hey",
+            "Good morning",
+            "Good evening"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi there! What can I do for you?",
+            "Greetings! How can I help you?"
+        ]
+    },
+    {
+        "intent": "goodbye",
+        "patterns": [
+            "Goodbye",
+            "See you later",
+            "Bye",
+            "Take care",
+            "Catch you later"
+        ],
+        "responses": [
+            "Goodbye! Have a great day!",
+            "See you later!",
+            "Take care and talk to you soon!"
+        ]
+    },
+    {
+        "intent": "thanks",
+        "patterns": [
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Thanks for your help",
+            "I appreciate it"
+        ],
+        "responses": [
+            "You're welcome!",
+            "Happy to help!",
+            "No problem, glad I could assist!"
+        ]
+    }
+]
