@@ -1,0 +1,45 @@
+[
+    {
+      "category": "jean",
+      "links": [
+        "https://example.com/products/jeans1",
+        "https://example.com/products/jeans2",
+        "https://example.com/products/jeans3"
+      ]
+    },
+    {
+      "category": "tshirt",
+      "links": [
+        "https://example.com/products/tshirt1",
+        "https://example.com/products/tshirt2",
+        "https://example.com/products/tshirt3"
+      ]
+    },
+    {
+      "category": "shoes",
+      "links": [
+        "https://example.com/products/shoes1",
+        "https://example.com/products/shoes2",
+        "https://example.com/products/shoes3",
+        "https://example.com/products/shoes4",
+        "https://example.com/products/shoes5"
+      ]
+    },
+    {
+      "category": "jacket",
+      "links": [
+        "https://example.com/products/jacket1",
+        "https://example.com/products/jacket2",
+        "https://example.com/products/jacket3",
+        "https://example.com/products/jacket4"
+      ]
+    },
+    {
+      "category": "accessories",
+      "links": [
+        "https://example.com/products/accessory1",
+        "https://example.com/products/accessory2",
+        "https://example.com/products/accessory3"
+      ]
+    }
+  ]

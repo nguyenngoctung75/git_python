@@ -4,18 +4,21 @@ import random
 import spacy
 import math
 
+import functionHandler as fh
+
 app = Flask(__name__)
 
 nlp = spacy.load("en_core_web_md")
 
 # Load dữ liệu
-with open('inputTest.json', 'r', encoding='utf-8') as f:
+with open('trainData.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 patterns = []
 responses = []
 intents = []
 D = 0
+
 for item in data:
     for pattern in item['patterns']:
         patterns.append(pattern)
@@ -23,10 +26,13 @@ for item in data:
         responses.append(item['responses'])
         D += 1
 
+
 # Xử lý dữ liệu
 def lemmatize_patterns(patterns):
     lemmatized = []
     for sentence in patterns:
+        if isinstance(sentence, list):
+            sentence = ' '.join(sentence)
         doc = nlp(sentence)
         lemmatized.append([token.lemma_ for token in doc if not token.is_stop])
     return lemmatized

@@ -1,0 +1,86 @@
+[
+    {
+      "intent": "greeting",
+      "patterns": ["Hello", "Hi", "Good morning", "Good afternoon", "Hey there"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What do you need help with?",
+        "Good day! Let me know how I can assist you."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks!",
+        "I appreciate it",
+        "Many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Anytime, happy to assist!"
+      ]
+    },
+    {
+      "intent": "farewell",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Have a great day",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care and come back anytime!"
+      ]
+    },
+    {
+      "intent": "size",
+      "patterns": [
+        "I am 1.5m and weigh 40kg, what size should I wear?",
+        "What size is suitable for someone who is 170cm and 60kg?",
+        "Can you recommend a size for someone weighing 55 kilograms and 160cm tall?",
+        "Which size fits me if I'm 1.75m tall and weigh 70kg?",
+        "What size should I get if I am 150cm tall and 40kg?"
+      ],
+      "responses": [
+        "Let me calculate the best size for you based on your height and weight."
+      ]
+    },
+    {
+      "intent": "product_search",
+      "patterns": [
+        "I want to buy a {category}",
+        "Show me some {category}",
+        "Where can I find {category}?",
+        "I need a {category}",
+        "Suggest me some {category} to buy"
+      ],
+      "responses": [
+        "Here are some {category} you might like:",
+        "Take a look at these {category}:"
+      ]
+    },
+    {
+      "intent": "who",
+      "patterns": ["Who are you?"],
+      "responses": [
+        "I’m the customer support chatbot. How can I assist you today?",
+        "I’m the virtual assistant, here to help you with any questions or product inquiries.",
+        "I’m the shopping assistant chatbot. Which product are you interested in today?",
+        "I’m the chatbot AI. Do you need help with an order or product details?"
+      ]
+    },
+    {
+      "intent": "personal",
+      "patterns": ["What is your name?", "How old are you?"],
+      "responses": [
+        "Sorry, I'm just a customer support chatbot, so I don't have human-like information.",
+        "I can't answer this question because I'm just a virtual assistant. Would you like to know more about the store's products?"
+      ]
+    }
+  ]
